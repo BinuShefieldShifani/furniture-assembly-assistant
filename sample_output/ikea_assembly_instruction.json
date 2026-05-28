@@ -1,0 +1,46 @@
+{
+  "step_text": "Insert wooden dowels into the front legs",
+  "voice_text": "Great progress! I can see the seat frame, wooden dowels, and chair legs in your workspace. Your next step is to insert 2 wooden dowels into each front leg before sliding them onto the seat frame. Make sure the dowels are fully seated before applying pressure.",
+  "ar_commands": {
+    "highlight": ["wooden dowels", "chair legs"],
+    "arrow": {
+      "from": "wooden dowels",
+      "to": "chair legs"
+    },
+    "outline_color": "#00ff00",
+    "show_text_bubble": true
+  },
+  "warning": "",
+  "detected_objects": [
+    {
+      "name": "seat frame",
+      "original_name": "Chair Seat Frame",
+      "confidence": 0.821,
+      "bbox_normalized": [0.452, 0.381, 0.524, 0.412]
+    },
+    {
+      "name": "wooden dowels",
+      "original_name": "Wooden Dowels",
+      "confidence": 0.634,
+      "bbox_normalized": [0.123, 0.672, 0.082, 0.061]
+    },
+    {
+      "name": "chair legs",
+      "original_name": "Chair Legs",
+      "confidence": 0.578,
+      "bbox_normalized": [0.781, 0.452, 0.183, 0.321]
+    },
+    {
+      "name": "Allen key",
+      "original_name": "Allen Key",
+      "confidence": 0.412,
+      "bbox_normalized": [0.234, 0.812, 0.041, 0.035]
+    },
+    {
+      "name": "screws",
+      "original_name": "Screws",
+      "confidence": 0.387,
+      "bbox_normalized": [0.651, 0.721, 0.063, 0.048]
+    }
+  ]
+}
