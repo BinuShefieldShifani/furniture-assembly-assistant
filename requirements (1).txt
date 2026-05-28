@@ -1,0 +1,22 @@
+# All dependencies are installed automatically in Cell 1 of the notebook.
+# This file is for reference only.
+#
+# The notebook installs:
+#   torch torchvision torchaudio  (cu118 build for Colab GPU)
+#   supervision
+#   opencv-python
+#   pillow
+#   numpy
+#   groundingdino-py              (Roboflow fork — installs via pip with --no-build-isolation)
+#   ollama                        (Python client)
+#
+# Ollama itself is installed via:
+#   curl -fsSL https://ollama.com/install.sh | sh
+#
+# Llama 3.2 3B model is pulled via:
+#   ollama pull llama3.2:3b
+#
+# GroundingDINO weights (Swin-T) are downloaded automatically in Cell 1:
+#   groundingdino_swint_ogc.pth  → /root/.cache/torch/hub/checkpoints/
+#
+# Environment: Google Colab with GPU runtime (T4 recommended)
